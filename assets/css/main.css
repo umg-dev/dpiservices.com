@@ -3892,7 +3892,8 @@ eaeaea*/
 	margin: 50px auto;
 }
 
-.slider {
+.slider-1,
+.slider-2 {
 	position: relative;
 	margin: auto;
 }
@@ -3932,11 +3933,13 @@ a.slider-arrow {
 	border-bottom: solid 0px !important;
 }
 
-.sa-left {
+.sa-left-1,
+.sa-left-2 {
 	left: 10px;
 }
 
-.sa-right {
+.sa-right-1,
+.sa-right-2 {
 	right: 10px;
 }
 
@@ -3970,7 +3973,8 @@ img.company-logo {
 }
 
 .vertical-align img,
-.vertical-align span {
+.vertical-align span,
+.vertical-align em {
     margin: 0;
     position: absolute;
     top: 50%;
