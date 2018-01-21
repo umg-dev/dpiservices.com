@@ -1678,6 +1678,7 @@ eaeaea*/
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="number"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -1750,6 +1751,7 @@ eaeaea*/
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="number"],
 	select {
 		height: 2.75em;
 	}
