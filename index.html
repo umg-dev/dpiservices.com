@@ -49,9 +49,9 @@
 											</ul>
 
 											<p>
-												<a href="#" class="icon fa-facebook"><span class="h2 label fit">Facebook</span></a>
+												<a href="https://www.facebook.com/pages/Dan-Parrish-Insurance-Serices/521967014649573" class="icon fa-facebook"><span class="h2 label fit">Facebook</span></a>
 												&nbsp;
-												<a href="#" class="icon fa-linkedin"><span class="h2 label fit">LinkedIn</span></a>
+												<a href="https://www.linkedin.com/in/daniel-parrish-9b8b6a43/" class="icon fa-linkedin"><span class="h2 label fit">LinkedIn</span></a>
 											</p>
 										</center>
 									</div>
@@ -276,5 +276,25 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/an/jquery.animateNumber.min.js"></script>
 
+
+			<script>
+			$an1 = $('#an1'),
+			$an2 = $('#an2'),
+			$an3 = $('#an3'),
+			$comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
+
+			$an1.animateNumber({ 
+				number: 3457,
+				numberStep: $comma_separator_number_step
+			});
+			$an2.animateNumber({ 
+				number: 8237,
+				numberStep: $comma_separator_number_step
+			});
+			$an3.animateNumber({ 
+				number: 44,
+				numberStep: $comma_separator_number_step
+			});
+			</script>
 	</body>
 </html>

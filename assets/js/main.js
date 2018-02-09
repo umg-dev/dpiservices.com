@@ -22,10 +22,10 @@
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
 			$header = $('#header');
-			$an1 = $('#an1'),
-			$an2 = $('#an2'),
-			$an3 = $('#an3'),
-			$comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
+			// $an1 = $('#an1'),
+			// $an2 = $('#an2'),
+			// $an3 = $('#an3'),
+			// $comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -33,18 +33,18 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-					$an1.animateNumber({ 
-						number: 3457,
-						numberStep: $comma_separator_number_step
-					});
-					$an2.animateNumber({ 
-						number: 8237,
-						numberStep: $comma_separator_number_step
-					});
-					$an3.animateNumber({ 
-						number: 44,
-						numberStep: $comma_separator_number_step
-					});
+					// $an1.animateNumber({ 
+					// 	number: 3457,
+					// 	numberStep: $comma_separator_number_step
+					// });
+					// $an2.animateNumber({ 
+					// 	number: 8237,
+					// 	numberStep: $comma_separator_number_step
+					// });
+					// $an3.animateNumber({ 
+					// 	number: 44,
+					// 	numberStep: $comma_separator_number_step
+					// });
 				}, 100);
 			});
 
