@@ -84,7 +84,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal1" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal1" rel="modal:open">Read More</a></p>
 										</p>
 									</li>
 									<li class="icon fa-laptop">
@@ -97,7 +97,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal2" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal2" rel="modal:open">Read More</a></p>
 									</li>
 									<li class="icon fa-code">
 										<h3>What are the primary benefits of a Captive?</h3>
@@ -121,7 +121,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal3" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal3" rel="modal:open">Read More</a></p>
 										
 									</li>
 									<li class="icon fa-headphones">
@@ -138,7 +138,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal4" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal4" rel="modal:open">Read More</a></p>
 					
 									</p>
 									</li>
@@ -154,7 +154,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal5" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal5" rel="modal:open">Read More</a></p>
 
 									</li>
 									<li class="icon fa-flag-o">
@@ -174,7 +174,7 @@
 										</div>
 
 										<!-- Link to open the modal -->
-										<p><a class="button" href="#modal6" rel="modal:open">Read More</a></p>
+										<p><a class="button open-modal" href="#modal6" rel="modal:open">Read More</a></p>
 
 									</li>
 								</ul>
@@ -214,9 +214,13 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
 			<script>
-				$("#fade").modal({
-				  fadeDuration: 100
-				});
+			$('a.open-modal').click(function(event) {
+			  $(this).modal({
+			    fadeDuration: 250
+			  });
+			  return false;
+			});
+
 			</script>
 	</body>
 </html>
